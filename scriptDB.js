@@ -3,7 +3,7 @@ var connection = new ActiveXObject("Portfolio-Covid-Project") ;
 var connectionstring="Data Source=<server>;Initial Catalog=<catalog>;User ID=<user>;Password=<password>;Provider=SQLOLEDB";
 
 connection.Open(connectionstring);
-var rs = new ActiveXObject("ADODB.Recordset");
+var rs = new ActiveXObject("Portfolio-Covid-Project");
 
 rs.Open("SELECT * FROM table", connection);
 rs.MoveFirst
