@@ -17,9 +17,9 @@ rs.close;
 connection.close; 
 
 
-> INSERT INTO student VALUES (1, 'date', ' date');
-> INSERT INTO student VALUES (2, ' total_cases', 'new_cases');
-> INSERT INTO student VALUES (3, 'total_deaths', 'population');
+> INSERT INTO CovidDeaths VALUES (1, 'date', ' date');
+> INSERT INTO CovidDeaths VALUES (2, ' total_cases', 'new_cases');
+> INSERT INTO CovidDeaths VALUES (3, 'total_deaths', 'population');
 > GO
 
 
